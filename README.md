@@ -1,11 +1,13 @@
 # Image2UTF8-Transformer
 このレポジトリは、文字の画像をUTF8エンコード文字列に変換するTransformerモデルを学習させるコードです。
 
+![model](https://user-images.githubusercontent.com/4783887/123975754-8ddb2c00-d9f8-11eb-8e4d-159c669c81d2.png)
+
 ## Description
 128x128x3のカラー画像として文字を入力します。
 この画像列を、EfficientNetに入れ、各画像256次元の表現を得ます。
 256xNの入力データを、256xMの出力データにTransformerモデルを用いて変換します。
-出力データは、M　byteのUTF8エンコード文字列になります。
+出力データは、MバイトのUTF8エンコード文字列になります。
 
 推論は、Mask-Predictの方法で高速化しています。(T=4,L=4)
 
@@ -85,9 +87,9 @@ python3 convert_model.py
 ```
 
 ## Reference
-https://qiita.com/halhorn/items/c91497522be27bde17ce
-https://www.tensorflow.org/tutorials/text/transformer
-https://arxiv.org/abs/1904.09324
+- https://qiita.com/halhorn/items/c91497522be27bde17ce
+- https://www.tensorflow.org/tutorials/text/transformer
+- https://arxiv.org/abs/1904.09324
 
 
 
