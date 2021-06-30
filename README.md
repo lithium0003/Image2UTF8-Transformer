@@ -84,5 +84,10 @@ iOSで学習済みモデルを使用できます。
 python3 convert_model.py
 ```
 
+## Reference
+https://qiita.com/halhorn/items/c91497522be27bde17ce
+https://www.tensorflow.org/tutorials/text/transformer
+https://arxiv.org/abs/1904.09324
+
 
 
