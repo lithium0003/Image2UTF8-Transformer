@@ -23,7 +23,6 @@
 - umap-learn
 - tqdm
 - matplotlib
-- pillow
 
 CoreMLモデルに変換する場合は追加で必要
 - coremltools
