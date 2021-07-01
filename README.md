@@ -44,9 +44,7 @@ pip install wheel
 pip install tensorflow
 pip install umap-learn
 pip install tqdm
-pip install tqdm
 pip install matplotlib
-pip install pillow
 ```
 
 ## Prepare
