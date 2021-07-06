@@ -779,10 +779,6 @@ SerifBd.ttf
 SerifIt.ttf
 SerifRm.ttf
 SerifTh.ttf
-SeyesBDE.ttf
-SeyesBDL.ttf
-SeyesNDE.ttf
-SeyesNDL.ttf
 Shanders free.ttf
 Sickness.ttf
 SkarpaLt.ttf
